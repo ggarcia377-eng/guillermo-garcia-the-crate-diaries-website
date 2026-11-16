@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blog your crate: share record finds, store visits, and collecting stories with The Crate Diaries community.">
+  <title>The Crate Diaries | Community</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">▦</span><span>THE CRATE <em>DIARIES</em></span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a><a class="active" href="community.html">Community</a><a href="guide.html">The Guide</a>
+      <a class="nav-cta" href="#share">Share a find <span>↗</span></a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="page-hero community-hero">
+      <div class="section-kicker">THE PEOPLE BEHIND THE CRATES / 02</div>
+      <h1>BLOG YOUR<br><span>CRATE.</span></h1>
+      <p class="hero-lede">Every collector has a story. Tell us about the record you found, the shop you stumbled into, or the album you can't stop playing.</p>
+      <a class="button button-primary" href="#share">Share your story <span>↓</span></a>
+    </section>
+
+    <section class="community-feature section-pad">
+      <div class="community-photo"><img src="images/record-store-neon.jpg" alt="Entrance to a record store with a glowing records sign"></div>
+      <div class="community-copy">
+        <div class="section-kicker">01 / THE CRATE DIARIES COMMUNITY</div>
+        <h2>It's not just<br><span>what you find.</span></h2>
+        <p>It's the shop that played your favorite song while you browsed. The sleeve you almost passed over. The unexpected conversation at the listening station. We want to hear about all of it.</p>
+        <p>Share a record-hunting experience, write about a recent pickup, or send a photo of your latest find for a future community gallery.</p>
+      </div>
+    </section>
+
+    <section class="story-section section-pad">
+      <div class="section-heading"><div><div class="section-kicker">02 / YOUR STORIES</div><h2>What belongs in a crate diary?</h2></div><p>Big scores and small discoveries are equally welcome.</p></div>
+      <div class="story-cards">
+        <article class="story-card"><span class="story-number">01</span><img src="images/record-find.jpg" alt="A collector browsing for a record"><h3>The record find</h3><p>What did you find? Tell us the artist, pressing, condition, price, and why it came home with you.</p></article>
+        <article class="story-card"><span class="story-number">02</span><img src="images/shop-interior.jpg" alt="Rows of records inside a record shop"><h3>The shop visit</h3><p>Give another collector the inside scoop: the neighborhood, the atmosphere, and what makes the shop worth a visit.</p></article>
+        <article class="story-card"><span class="story-number">03</span><img src="images/turntable.jpg" alt="A vinyl record on a turntable"><h3>The listening note</h3><p>Write about an album you rediscovered, a first spin, or the record that changed your listening habits.</p></article>
+      </div>
+    </section>
+
+    <section class="share-section section-pad" id="share">
+      <div class="share-intro"><div class="section-kicker">03 / ADD TO THE ARCHIVE</div><h2>Put your find<br><span>on the record.</span></h2><p>Use this starter form to shape your post. It opens an email draft with your story details — you can add photos before sending.</p><p class="small-note">This first-draft form uses your email app; it does not publish posts to a live database yet.</p></div>
+      <form class="story-form" id="story-form">
+        <label for="story-name">Your name</label><input id="story-name" name="name" required placeholder="How should we credit you?">
+        <label for="story-type">What are you sharing?</label><select id="story-type" name="type"><option>Record find</option><option>Record store visit</option><option>Listening note</option><option>Gallery photo</option></select>
+        <label for="story-title">Give your story a title</label><input id="story-title" name="title" required placeholder="The hunt for a first pressing...">
+        <label for="story-body">Your story</label><textarea id="story-body" name="story" rows="5" required placeholder="Where did you go? What did you find?"></textarea>
+        <button class="button button-primary" type="submit">Prepare my post <span>↗</span></button>
+        <p class="form-feedback" aria-live="polite"></p>
+      </form>
+    </section>
+    <section class="video-section section-pad">
+      <div class="video-copy"><div class="section-kicker">04 / KEEP EXPLORING</div><h2>See what the hunt is all about.</h2><p>Want to go deeper? Explore record-collecting stories and crate-digging videos from collectors around the world.</p><a class="button button-light" href="https://www.youtube.com/results?search_query=vinyl+record+crate+digging" target="_blank" rel="noopener">Watch crate-digging videos ↗</a></div>
+      <div class="video-placeholder"><div class="play-mark">▶</div><span>THE JOY OF THE HUNT</span><small>Video collection · YouTube</small></div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="index.html"><span class="brand-mark">▦</span><span>THE CRATE <em>DIARIES</em></span></a><p>A personal archive of vinyl, memory, and the hunt.</p><div class="footer-links"><a href="index.html">Home</a><a href="community.html">Community</a><a href="guide.html">The Guide</a><a href="mailto:hello@thecratediaries.com">Email us</a></div><small>© 2026 The Crate Diaries · Made for the love of the spin.</small></footer>
+</body>
+</html>
